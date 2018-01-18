@@ -23,6 +23,7 @@
 
 	<!-- Generate output to the "out" folder. -->
 	<property name="out" value="out"/>
+	<property name="tempdir" value="temp"/>
 
 	<!-- Import the DITA-OT integrator.xml file. -->
 	<import file="${dita-ot.dir}${file.separator}integrator.xml"/>
@@ -125,6 +126,7 @@
 	<target name="clean" description="Deletes output directory">
 		<echo message="Deleting ${out}"/>
 		<delete dir="${out}"/>
+		<delete dir="${tempdir}"/>
 	</target>
 
 </project>
