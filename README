@@ -22,6 +22,26 @@ list is used for user discussions, problem reports, and other communications.
 Information about how to subscribe is available at
 http://lists.eucalyptus.com/cgi-bin/mailman/listinfo/community.
 
+Building the easy way:
+---------
+
+  * Make sure that you have Java installed and JAVA_HOME is correctly set.
+  * Ant is bundled in DITA, so it isn't required.
+
+The Makefile at the top level directory of the repository builds everything.
+
+To build the PDF Documentation:
+ $ make pdf
+
+To build the webhelp Documentation:
+ $ make webhelp
+
+To build both the pdf and webhelp documentation:
+ $ make
+
+The build artifacts for the webhelp and pdf will be put into:
+ content/output
+
 Building PDF Documentation
 --------------------------
 
