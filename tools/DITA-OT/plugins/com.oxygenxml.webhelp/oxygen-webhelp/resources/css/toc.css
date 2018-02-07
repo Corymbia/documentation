@@ -7,12 +7,14 @@ available in the base directory of this Oxygen Webhelp plugin.
 
 */
 
+@import 'fonts.css'; 
+
 html,body {
     width: 100%;
     margin: 0;
     padding: 0;
     background-color: #fff;
-    font-family: arial, helvetica, sans-serif;
+  	font-family: "GT-Walsheim-Regular", arial, helvetica, sans-serif;
     font-size: 10pt;
 }
 
@@ -103,7 +105,7 @@ html,body {
     text-decoration: none;
     font-size: 10pt;
     color: navy;
-    font-family: arial, helvetica, tahoma, sans-serif;
+  	font-family: "GT-Walsheim-Regular", arial, helvetica, sans-serif;
     white-space: nowrap;
 }
 #contentBlock a:hover{
@@ -114,13 +116,13 @@ html,body {
     color: red;
 }
 .hasSubMenuClosed{
-    background: url('../img/book_closed16.png') no-repeat;
+    background: url('../img/book_closed.png') no-repeat;
     padding-left: 16px;
     cursor: pointer;
 
 }
 .hasSubMenuOpened{
-    background: url('../img/book_opened16.png') no-repeat;
+    background: url('../img/book_opened.png') no-repeat;
     padding-left: 16px;
     cursor: pointer;
 }
@@ -175,7 +177,7 @@ li{
 }
 
 .topic{
-    background-image: url('../img/topic16.png');
+    background-image: url('../img/topic.png');
     background-repeat:  no-repeat;
     padding-left: 16px;
 }
@@ -240,7 +242,7 @@ a.foundResult:hover{
     position: relative;
     float: right;
     font-size: 13px;
-    font-family: Arial,sans-serif;
+    font-family: arial,sans-serif;
     color: #888;
 }
 
