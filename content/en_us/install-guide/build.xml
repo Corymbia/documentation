@@ -26,6 +26,7 @@
 	
 	<!-- Generate output to the "out" folder. -->
 	<property name="out" value="out"/>
+	<property name="tempdir" value="temp"/>
 	
 	<!-- Import the DITA-OT integrator.xml file. -->
 	<import file="${dita-ot.dir}${file.separator}integrator.xml"/>
@@ -171,8 +172,8 @@
 		<!-- Remove all temporary and generated files -->
 		<echo message="Deleting ${out}"/>
 		<delete dir="${out}"></delete>
-		<echo message="Deleting ${dita.temp.dir}"/>
-		<delete dir="${dita.temp.dir}"/>
+		<echo message="Deleting ${tempdir}"/>
+		<delete dir="${tempdir}"/>
 	</target>
 	
 </project>

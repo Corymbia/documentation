@@ -11,6 +11,7 @@
 <!--  This bullet list to be updated with *overall doc structure* changes in a release.
 -->  
   <ul>
+   <li>Removal of DXC Technology branding, use generic Eucalyptus logo for PDF and Webhelp documents </li>
    <li>DXC Technology company and brand updates.</li>
   </ul>
  </conbody>
