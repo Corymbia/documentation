@@ -118,7 +118,7 @@
 
    <p><ph id="fullversionnumber">Version 4.4.2</ph></p>
    <p><ph id="shortversionnumber">4.4</ph></p>
-   <p><ph id="buildversionstring">STAGING</ph></p>
+   <p><ph id="buildversionstring">@BUILD_VERSION_STRING@</ph></p>
 
   </conbody>
  </concept>
