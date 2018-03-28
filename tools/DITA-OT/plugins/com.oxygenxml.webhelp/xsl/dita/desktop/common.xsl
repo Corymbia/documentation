@@ -26,6 +26,8 @@ available in the base directory of this Oxygen Webhelp plugin.
   <xsl:template name="jsAndCSS">
     <meta xmlns="http://www.w3.org/1999/xhtml" http-equiv="Content-Type" content="text/html; charset=utf-8"><xsl:comment/></meta>
     
+    <link rel="icon" href="{$PATH2PROJ}oxygen-webhelp/resources/img/eucalyptus.ico"><xsl:comment/></link>
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="{$PATH2PROJ}oxygen-webhelp/resources/css/commonltr.css"><xsl:comment/></link>
     <link rel="stylesheet" type="text/css" href="{$PATH2PROJ}oxygen-webhelp/resources/css/webhelp_topic.css"><xsl:comment/></link>
@@ -41,7 +43,7 @@ available in the base directory of this Oxygen Webhelp plugin.
       <link rel="stylesheet" type="text/css" href="{$PATH2PROJ}oxygen-webhelp/resources/css/admin.css"><xsl:comment/></link>  
     </xsl:if>
     
-    <link rel="stylesheet" type="text/css" href="{$PATH2PROJ}oxygen-webhelp/resources/css/skin_dxc.css"><xsl:comment/></link>
+    <link rel="stylesheet" type="text/css" href="{$PATH2PROJ}oxygen-webhelp/resources/css/skin_generic.css"><xsl:comment/></link>
     <!-- JS -->
     <!-- Generates the inline scripts. -->    
     <script type="text/javascript">

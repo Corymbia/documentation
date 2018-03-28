@@ -226,6 +226,9 @@ available in the base directory of this Oxygen Webhelp plugin.
             <xsl:value-of select="$title"/>
           </title>
                     
+            <link rel="icon" href="oxygen-webhelp/resources/img/eucalyptus.ico">
+                <xsl:comment/>
+            </link>
             <link rel="stylesheet" type="text/css"
                     href="oxygen-webhelp/resources/css/commonltr.css">
                 <xsl:comment/>
@@ -280,7 +283,7 @@ available in the base directory of this Oxygen Webhelp plugin.
         </head>
         <body onload="javascript:showMenu('content');">
           <xsl:if test="$withFrames">
-            <div id="productTitle"><img src="oxygen-webhelp/resources/img/logo.png" alt="Eucalyptus Documentation" style="width: 300px;" />
+            <div id="productTitle"><img src="oxygen-webhelp/resources/img/eucalyptus-logo.png" alt="Eucalyptus Documentation" style="width: 340px;" />
 <!-- 2017-05-05 display logo instead of product title
             <h1>
               <xsl:copy-of select="$title"/>
@@ -324,7 +327,7 @@ available in the base directory of this Oxygen Webhelp plugin.
           <div id="header">
             <div id="lHeader">
               <xsl:if test="not($withFrames)">
-                <div id="productTitle"><img src="oxygen-webhelp/resources/img/logo.png" alt="Eucalyptus Documentation" style="width: 300px;" />
+                <div id="productTitle"><img src="oxygen-webhelp/resources/img/eucalyptus-logo.png" alt="Eucalyptus Documentation" style="width: 340px;" />
 <!-- 2017-05-05 display logo instead of product title
             <h1>
               <xsl:copy-of select="$title"/>

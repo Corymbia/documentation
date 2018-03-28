@@ -97,10 +97,10 @@ available in the base directory of this Oxygen Webhelp plugin.
     </xsl:template>
     
       <!-- 
-    Add dxc custom css file
+    Add custom css file
   -->
-      <xsl:template match="link[ends-with(@href, 'skin_dxc.css')]" mode="fixup_desktop">
-        <link rel="stylesheet" type="text/css" href="{$PATH2PROJ}oxygen-webhelp/resources/css/skin_dxc.css">
+      <xsl:template match="link[ends-with(@href, 'skin_generic.css')]" mode="fixup_desktop">
+        <link rel="stylesheet" type="text/css" href="{$PATH2PROJ}oxygen-webhelp/resources/css/skin_generic.css">
             <xsl:comment/>
         </link>
     </xsl:template>
