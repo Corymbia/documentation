@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This work by Eucalyptus Systems is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. See the accompanying LICENSE file for more information.-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="rn_features_4.4.3">
+	<title id="title_xs1_1hm_kz">What's New?</title>
+	<shortdesc>This topic lists new features in <ph
+			conref="../../shared/conrefs.dita#prod/product_longname"/> 4.4.3.</shortdesc>
+	<conbody>
+		<section><p><ph conref="../../shared/conrefs.dita#prod/product_longname"/> 4.4.3 is a maintenance release
+				and contains no new features.</p>
+
+			<title>New in 4.4.3</title>
+			<p>The following is new for <ph conref="../../shared/conrefs.dita#prod/product"/> 4.4.3.</p>
+			
+			<table>
+				<tgroup cols="2">
+					<colspec colnum="1" colname="c1" colwidth="1*"/>
+					<colspec colnum="2" colname="c2" colwidth="2.77*"/>
+					<thead>
+						<row>
+							<entry>Item</entry>
+							<entry>Description</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry>Licence now 2-Clause/Simplified BSD</entry>
+							<entry>The 4.4.3 release uses a BSD license, this replaces the GPL license used by previous releases.</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</section>
+	</conbody>
+</concept>

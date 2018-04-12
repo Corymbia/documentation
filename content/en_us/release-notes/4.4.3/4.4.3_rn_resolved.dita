@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="rn_resolved_4.4.3">
+	<title>Resolved Issues</title>
+	<shortdesc>This topic lists previous issues resolved by <ph
+			conref="../../shared/conrefs.dita#prod/product_longname"/> 4.4.3.</shortdesc>
+	<conbody>
+		<table>
+			<tgroup cols="2">
+				<colspec colnum="1" colname="c1" colwidth="1*"/>
+				<colspec colnum="2" colname="c2" colwidth="4.71*"/>
+				<thead>
+					<row>
+						<entry>Issue</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/2">#2</xref>
+							<xref format="html" href="https://eucalyptus.atlassian.net/browse/EUCA-13331">EUCA-13331</xref>
+						</entry>
+						<entry>EC2 vm instance identification</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/3">#3</xref>
+							<xref format="html" href="https://eucalyptus.atlassian.net/browse/EUCA-13452">EUCA-13442</xref>
+						</entry>
+						<entry>Node controller unsafely uses fork with posix threads</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/6">#6</xref>
+							<xref format="html" href="https://eucalyptus.atlassian.net/browse/EUCA-13446">EUCA-13446</xref>
+						</entry>
+						<entry>Node controller libvirt connection error : timed out on libvirt refreshing thread</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/7">#7</xref>
+							<xref format="html" href="https://eucalyptus.atlassian.net/browse/EUCA-13447">EUCA-13447</xref>
+						</entry>
+						<entry>SELinux denies libvirt necessary permissions to run instances on RHEL 7.4</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/8">#8</xref>
+							<xref format="html" href="https://eucalyptus.atlassian.net/browse/EUCA-13448">EUCA-13448</xref>
+						</entry>
+						<entry>Seeing EESTERROR: deadlock detected errors in postgresql post cloud upgrade</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/9">#9</xref>
+							<xref format="html" href="https://eucalyptus.atlassian.net/browse/EUCA-13449">EUCA-13449</xref>
+						</entry>
+						<entry>Token encoding for simple workflow and tokens services "leaks" native memory</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/11">#11</xref>
+							<xref format="html" href="https://eucalyptus.atlassian.net/browse/EUCA-13452">EUCA-13452</xref>
+						</entry>
+						<entry>S3 put object fails with concurrency > 10</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/12">#12</xref>
+							<xref format="html" href="https://eucalyptus.atlassian.net/browse/EUCA-13454">EUCA-13454</xref>
+						</entry>
+						<entry>ELB timeout setting worker keyname property</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/13">#13</xref>
+						</entry>
+						<entry>NC littered with terminated instances files</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/15">#15</xref>
+						</entry>
+						<entry>Polled notifications service requests should not be logged</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/16">#16</xref>
+						</entry>
+						<entry>Recursive DNS lookups fail for some deployments</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/17">#17</xref>
+						</entry>
+						<entry>S3 connection closed after GET requests without connection close header</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/18">#18</xref>
+						</entry>
+						<entry>S3 performs blocking activities on netty io threads</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/19">#19</xref>
+						</entry>
+						<entry>Storage controller eucalyptus-cloud service crashes when using ceph storage</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/20">#20</xref>
+						</entry>
+						<entry>Node controller should not change umask</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/21">#21</xref>
+						</entry>
+						<entry>tools/config-no-polkit has a runtime error if there are duplicate configuration entries</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/23">#23</xref>
+						</entry>
+						<entry>Auto scaling launch activities do not backoff when there are running instances in the group</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/24">#24</xref>
+						</entry>
+						<entry>ELB instance does not update state</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/26">#26</xref>
+						</entry>
+						<entry>Eucalyptus cloud service should not attempt to resolve eucalyptus.com on start</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</conbody>
+</concept>

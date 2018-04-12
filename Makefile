@@ -9,7 +9,7 @@
 export BUILD_VERSION_STRING=STAGING
 
 # Eucalyptus version string
-export DOC_VERSION_NUMBER=4.4.2
+export DOC_VERSION_NUMBER=4.4.3
 
 # Euca2ools version string
 export EUCA2OOLS_VERSION_NUMBER=3.4.1
