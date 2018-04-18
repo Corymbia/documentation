@@ -27,6 +27,12 @@
 							<entry>Licence now 2-Clause/Simplified BSD</entry>
 							<entry>The 4.4.3 release uses a BSD license, this replaces the GPL license used by previous releases.</entry>
 						</row>
+						<row>
+							<entry>RPM repository changed</entry>
+							<entry>Updated Eucalyptus and Euca2ools release RPMs should be installed as detailed in the <xref
+									href="../../install-guide/installing_euca_release.dita"
+									>install guide</xref> so the new downloads.eucalyptuscloud.org location is used.</entry>
+						</row>
 					</tbody>
 				</tgroup>
 			</table>
