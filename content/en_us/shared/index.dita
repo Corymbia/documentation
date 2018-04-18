@@ -9,6 +9,7 @@
 		<p>Eucalyptus: Version 4.4.3 (Released: 2018-04-20)</p> 
 		<p>Euca2ools: Version 3.4.1 (Released: 2017-01-18)</p>
 		<p>Documentation version: <ph conref="../shared/conrefs.dita#vers/buildversionstring"/></p>
+		<p>Copyright for portions of this documentation are held by Ent. Services Development Corporation LP, 2017. All other copyright for this documentation is held by Eucalyptus Cloud, 2018</p>
 		<section>
 			<title>Installing and Maintaining Eucalyptus</title>
 			<table>
