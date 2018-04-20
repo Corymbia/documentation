@@ -31,7 +31,7 @@
 							<entry>RPM repository changed</entry>
 							<entry>Updated Eucalyptus and Euca2ools release RPMs should be installed as detailed in the <xref
 									href="../../install-guide/installing_euca_release.dita"
-									>install guide</xref> so the new downloads.eucalyptuscloud.org location is used.</entry>
+									>install guide</xref> so the new downloads.eucalyptus.cloud location is used.</entry>
 						</row>
 					</tbody>
 				</tgroup>
