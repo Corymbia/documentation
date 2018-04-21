@@ -58,7 +58,13 @@
 				<cmd>Configure the EPEL package repository on each host machine that will run a <ph
 						conref="../shared/conrefs.dita#prod/product"/> service or Euca2ools:</cmd>
 				<info>
+					<p>For RHEL/CentOS 7.3</p>
 					<codeblock>yum install <ph conref="../shared/conrefs.dita#paths/epel_download"/></codeblock>
+					<p>Enter <codeph>y</codeph> when prompted to install this package.</p>
+				</info>
+				<info>
+					<p>For RHEL/CentOS 7.4</p>
+					<codeblock>yum install epel-release</codeblock>
 					<p>Enter <codeph>y</codeph> when prompted to install this package.</p>
 				</info>
 			</step>

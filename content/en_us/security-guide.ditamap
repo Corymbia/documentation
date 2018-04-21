@@ -5,13 +5,13 @@
 	<title>Manage Security</title>
 	<topicmeta>
 		<copyright>
-			<copyryear year="2017"/>
-			<copyrholder> &#169; 2017 Ent. Services Development Corporation LP</copyrholder>
+			<copyryear year="2018"/>
+			<copyrholder>Copyright for portions of this documentation are held by Ent. Services Development Corporation LP, 2017. All other copyright for this documentation is held by Eucalyptus Cloud, 2018</copyrholder>
 		</copyright>
 		<prodinfo>
 			<prodname>Eucalyptus</prodname>
 			<vrmlist>
-				<vrm version="4.4.2"/>
+				<vrm version="4.4.3"/>
 			</vrmlist>
 		</prodinfo>
 	</topicmeta>
