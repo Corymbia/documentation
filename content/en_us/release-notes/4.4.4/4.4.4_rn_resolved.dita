@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="rn_resolved_4.4.4">
+	<title>Resolved Issues</title>
+	<shortdesc>This topic lists previous issues resolved by <ph
+			conref="../../shared/conrefs.dita#prod/product_longname"/> 4.4.4.</shortdesc>
+	<conbody>
+		<table>
+			<tgroup cols="2">
+				<colspec colnum="1" colname="c1" colwidth="1*"/>
+				<colspec colnum="2" colname="c2" colwidth="4.71*"/>
+				<thead>
+					<row>
+						<entry>Issue</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/10">#10</xref>
+						</entry>
+						<entry>Cloudwatch sometimes fails to persist system metrics with multiple ufs hosts</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/14">#14</xref>
+						</entry>
+						<entry>Failed to move console log file error logged frequently</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/22">#22</xref>
+						</entry>
+						<entry>ELB does not work for listener on load balancer port 6379</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/49">#49</xref>
+						</entry>
+						<entry>S3 does not complete periodic work when there are 1000s of objects</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/50">#50</xref>
+						</entry>
+						<entry>S3 usage metric causes high load with 100,000s of objects </entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/53">#53</xref>
+						</entry>
+						<entry>esi-install-image fails when region is not set </entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/55">#55</xref>
+						</entry>
+						<entry>Node controller should declare correct rpm requirements (append not supported) </entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/58">#58</xref>
+						</entry>
+						<entry>Node controller can terminate instances on reboot</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/60">#60</xref>
+						</entry>
+						<entry>Error getting ec2 instance console output with libvirt 3.9.0 and selinux enforcing</entry>
+					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/65">#65</xref>
+						</entry>
+						<entry>Node controller sometimes fails to clean up instance artifacts on termination </entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</conbody>
+</concept>
