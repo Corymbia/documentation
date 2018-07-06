@@ -76,6 +76,12 @@
 						</entry>
 						<entry>Node controller sometimes fails to clean up instance artifacts on termination </entry>
 					</row>
+					<row>
+						<entry>
+							<xref format="html" href="https://github.com/corymbia/eucalyptus/issues/67">#67</xref>
+						</entry>
+						<entry>Node controller stats should ignore instances in Teardown</entry>
+					</row>
 				</tbody>
 			</tgroup>
 		</table>
