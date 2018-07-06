@@ -63,7 +63,7 @@
 					<p>Enter <codeph>y</codeph> when prompted to install this package.</p>
 				</info>
 				<info>
-					<p>For RHEL/CentOS 7.4</p>
+					<p>For RHEL/CentOS 7.4, 7.5</p>
 					<codeblock>yum install epel-release</codeblock>
 					<p>Enter <codeph>y</codeph> when prompted to install this package.</p>
 				</info>
