@@ -61,27 +61,29 @@ SERVICE storage one one-sc enabled</codeblock>
 			<step>
 				<cmd>Make sure that NCs are presenting available resources to the CC.</cmd>
 				<info>
-					<codeblock>euca-describe-availability-zones verbose</codeblock>
+					<codeblock>euca-describe-instance-types --show-capacity --by-zone</codeblock>
 				</info>
 				<stepresult>
-					<p>The returned output should a non-zero number in the <codeph>free</codeph> and
-							<codeph>max</codeph> columns, as in the following example.</p>
-					<codeblock>AVAILABILITYZONE        test00  203.0.113.13
-arn:euca:eucalyptus:test00:cluster:test00_cc/
-AVAILABILITYZONE        |- vm types     free / max   cpu   ram  disk
-AVAILABILITYZONE        |- m1.small     0004 / 0004   1    128     2
-AVAILABILITYZONE        |- c1.medium    0004 / 0004   1    256     5
-AVAILABILITYZONE        |- m1.large     0002 / 0002   2    512    10
-AVAILABILITYZONE        |- m1.xlarge    0002 / 0002   2   1024    20
-AVAILABILITYZONE        |- c1.xlarge    0001 / 0001   4   2048    20
-AVAILABILITYZONE        test01  203.0.113.14
-arn:euca:eucalyptus:test01:cluster:test01_cc/
-AVAILABILITYZONE        |- vm types     free / max   cpu   ram  disk
-AVAILABILITYZONE        |- m1.small     0004 / 0004   1    128     2
-AVAILABILITYZONE        |- c1.medium    0004 / 0004   1    256     5
-AVAILABILITYZONE        |- m1.large     0002 / 0002   2    512    10
-AVAILABILITYZONE        |- m1.xlarge    0002 / 0002   2   1024    20
-AVAILABILITYZONE        |- c1.xlarge    0001 / 0001   4   2048    20</codeblock>
+					<p>The returned output should a non-zero number in the <codeph>Total</codeph>
+						column, as in the following example.</p>
+					<codeblock>AVAILABILITYZONE        test00
+INSTANCETYPE	Name         CPUs  Memory (MiB)  Disk (GiB)  NICs  Used / Total  Used %
+INSTANCETYPE	t1.micro        1           256           5     2     0 /     4      0%
+INSTANCETYPE	m1.small        1           256          10     2     0 /     4      0%
+INSTANCETYPE	m1.medium       1           512          10     2     0 /     4      0%
+INSTANCETYPE	c1.medium       2           512          10     2     0 /     2      0%
+INSTANCETYPE	m1.large        2           512          10     3     0 /     2      0%
+INSTANCETYPE	m1.xlarge       2          1024          10     4     0 /     2      0%
+INSTANCETYPE	c1.xlarge       2          2048          10     4     0 /     2      0%
+AVAILABILITYZONE        test01
+INSTANCETYPE	Name         CPUs  Memory (MiB)  Disk (GiB)  NICs  Used / Total  Used %
+INSTANCETYPE	t1.micro        1           256           5     2     0 /     4      0%
+INSTANCETYPE	m1.small        1           256          10     2     0 /     4      0%
+INSTANCETYPE	m1.medium       1           512          10     2     0 /     4      0%
+INSTANCETYPE	c1.medium       2           512          10     2     0 /     2      0%
+INSTANCETYPE	m1.large        2           512          10     3     0 /     2      0%
+INSTANCETYPE	m1.xlarge       2          1024          10     4     0 /     2      0%
+INSTANCETYPE	c1.xlarge       2          2048          10     4     0 /     2      0%</codeblock>
 				</stepresult>
 			</step>
 			
