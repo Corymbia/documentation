@@ -58,7 +58,6 @@
 		<topicref href="install-guide/install_repos_intro.dita" collection-type="family" otherprops="install-guide">
 			<topicref href="install-guide/installing_euca_software_signing.dita"/>
 			<topicref href="install-guide/installing_euca_release.dita"/>
-			<topicref href="install-guide/installing_euca_nightlies.dita"/>
 		</topicref>
 		<topicref href="install-guide/configuring_euca.dita" collection-type="sequence" otherprops="install-guide">
 			<topicref href="install-guide/configure_selinux.dita"/>

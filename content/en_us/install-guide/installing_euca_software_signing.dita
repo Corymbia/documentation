@@ -27,7 +27,7 @@
    <p>This key is used for signing <ph conref="../shared/conrefs.dita#prod/product_longname"/>
     products released after July 2011 and their updates.</p>
    <ul>
-    <li><xref href="http://downloads.eucalyptus.com/software/gpg/eucalyptus-release-key.pub" 
+    <li><xref href="http://downloads.eucalyptus.cloud/software/gpg/eucalyptus-release-key.pub"
      scope="external" format="html">Download from Eucalyptus</xref></li>
     <li><xref href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xBE264D09C1240596" 
      scope="external" format="html">Download from pgp.mit.edu</xref></li>
@@ -41,7 +41,7 @@
    <p>This key is used for signing <ph conref="../shared/conrefs.dita#prod/product_longname"/>
     pre-release products due for release after July 2011.</p>
    <ul>
-    <li><xref href="http://downloads.eucalyptus.com/software/gpg/eucalyptus-pre-release-key.pub" 
+    <li><xref href="http://downloads.eucalyptus.cloud/software/gpg/eucalyptus-pre-release-key.pub"
      scope="external" format="html">Download from Eucalyptus</xref></li>
     <li><xref href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0x8B94DFB50260CF4E" 
      scope="external" format="html">Download from pgp.mit.edu</xref></li>
@@ -55,7 +55,7 @@
    <p>This key is used for signing nightly builds of <ph
      conref="../shared/conrefs.dita#prod/product_longname"/> products published after July 2011.</p>
    <ul>
-    <li><xref href="http://downloads.eucalyptus.com/software/gpg/eucalyptus-nightly-release-key.pub" 
+    <li><xref href="http://downloads.eucalyptus.cloud/software/gpg/eucalyptus-nightly-release-key.pub"
      scope="external" format="html">Download from Eucalyptus</xref></li>
     <li><xref href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0x48827EF99D7B073C" 
      scope="external" format="html">Download from pgp.mit.edu</xref></li>
