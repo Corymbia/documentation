@@ -38,7 +38,7 @@
 					<row>
 						<entry>Quickly deploy <ph conref="../shared/conrefs.dita#prod/product"/> on
 							one machine</entry>
-						<entry>If you have a CentOS 7.3, 7.4, or 7.5 minimal install and a few IP addresses to
+						<entry>If you have a CentOS 7.6 minimal install and a few IP addresses to
 							spare, try the FastStart script. Run the following command as root:
 							<codeblock>bash &lt;(curl -Ls https://eucalyptus.cloud/install)</codeblock></entry>
 					</row>
