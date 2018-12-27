@@ -37,9 +37,6 @@
             <p><term>EPEL software</term> — EPEL (Extra Packages for Enterprise Linux) are free,
                 open source software, which is fully separated from licensed RHEL distribution. It
                 requires its own package.</p>
-            <p><term>Nightly releases</term> — Eucalyptus nightly packages are the latest Eucalyptus
-                builds, which are available for early testing or development work. Nightlies should
-                not be used in production.</p>
         </section>
     </conbody>
 </concept>
