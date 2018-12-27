@@ -11,11 +11,11 @@
 		<prodinfo>
 			<prodname>Eucalyptus</prodname>
 			<vrmlist>
-				<vrm version="4.4.4"/>
+				<vrm version="4.4.5"/>
 			</vrmlist>
 		</prodinfo>
 	</topicmeta>
-	<topicref href="shared/index.dita" navtitle="Eucalyptus 4.4.4 Documentation" locktitle="yes"/>
+	<topicref href="shared/index.dita" navtitle="Eucalyptus 4.4.5 Documentation" locktitle="yes"/>
 	<topicref href="shared/install_section.dita" otherprops="euca-docs">
 		<topicref href="install-guide.ditamap" format="ditamap" collection-type="family"/>
 	</topicref>
