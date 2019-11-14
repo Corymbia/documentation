@@ -190,7 +190,7 @@ VNET_DHCPDAEMON="/usr/sbin/dhcpd"</codeblock>
                 "10.111.101.94",
                 "10.111.101.95"
             ]
-        },
+        }
     ]
 }</codeblock>
 				<p>For a multi-cluster deployment, add an additional
