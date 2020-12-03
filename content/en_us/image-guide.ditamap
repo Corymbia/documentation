@@ -11,13 +11,13 @@
         <prodinfo>
             <prodname>Eucalyptus</prodname>
             <vrmlist>
-                <vrm version="4.4.5"/>
+                <vrm version="4.4.6"/>
             </vrmlist>
         </prodinfo>
     </topicmeta>
     <topicref href="image-guide/index.dita"/>
     <topicref href="image-guide/img_concept_understanding_images.dita"/>
-    <topicref href="image-guide/img_task_intro.dita" collection-type="family">
+    <topicref href="image-guide/img_task_intro.dita" collection-type="family" otherprops="image-guide">
         <topicref href="image-guide/img_task_eustore.dita"
             copy-to="image-guide/ig_task_eustore.dita" keys="eustore"/>
         <topicref href="image-guide/img_task_install_hvm_image.dita"/>

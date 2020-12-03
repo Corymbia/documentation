@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="rn_resolved_4.4.6">
+	<title>Resolved Issues</title>
+	<shortdesc>This topic lists previous issues resolved by <ph
+			conref="../../shared/conrefs.dita#prod/product_longname"/> 4.4.6.</shortdesc>
+	<conbody>
+		<table>
+			<tgroup cols="2">
+				<colspec colnum="1" colname="c1" colwidth="1*"/>
+				<colspec colnum="2" colname="c2" colwidth="4.71*"/>
+				<thead>
+					<row>
+						<entry>Issue</entry>
+						<entry>Description</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>
+							<xref scope="external" format="html" href="https://github.com/corymbia/eucalyptus/issues/231">#231</xref>
+						</entry>
+						<entry>ELB service vm instances can be marked failed while pending</entry>
+					</row>
+					<row>
+						<entry>
+							<xref scope="external" format="html" href="https://github.com/corymbia/eucalyptus/issues/232">#232</xref>
+						</entry>
+						<entry>ELB creating listener with non-capitalized instance protocol fails</entry>
+					</row>
+					<row>
+						<entry>
+							<xref scope="external" format="html" href="https://github.com/corymbia/eucalyptus/issues/233">#233</xref>
+						</entry>
+						<entry>EC2 instance metadata v2 / ubuntu focal cannot access metadata</entry>
+					</row>
+					<row>
+						<entry>
+							<xref scope="external" format="html" href="https://github.com/corymbia/eucalyptus/issues/234">#234</xref>
+						</entry>
+						<entry>EC2 VPC nat gateway private ip reservation expires</entry>
+					</row>
+					<row>
+						<entry>
+							<xref scope="external" format="html" href="https://github.com/corymbia/eucalyptus/issues/235">#235</xref>
+						</entry>
+						<entry>EC2 node controller crash when running windows instance</entry>
+					</row>
+					<row>
+						<entry>
+							<xref scope="external" format="html" href="https://github.com/corymbia/eucalyptus/issues/236">#236</xref>
+						</entry>
+						<entry>S3 close http connection when testing backend provider</entry>
+					</row>
+					<row>
+						<entry>
+							<xref scope="external" format="html" href="https://github.com/corymbia/eucalyptus/issues/237">#237</xref>
+						</entry>
+						<entry>ELB servo VPC networking setup</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</conbody>
+</concept>
